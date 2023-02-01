@@ -30,10 +30,7 @@ nav a[aria-current='page'] {
   background-color: #d4d4d4;
 }
 .tiles{
-  /* height:50px; */
-  /* border-style: solid;
-  border-width: 1px;
-  border-color: black;   */
+
   border-radius: 10px;
 }
 .icon-tiles{
@@ -140,13 +137,13 @@ transition: 300ms;
     font-size: 3rem;
   }
   .heroimg {
-    /* height:auto; */
+aspect-ratio: 1;
   }
 
   .heroimg img {
+padding-top:20px;
 
-width: 100%;
-
+max-width:100%;
 
 
     bottom: 0;
