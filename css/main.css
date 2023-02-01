@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  min-height: 5rem;
+  position: relative;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+.tiles{
+  /* height:50px; */
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: black;   */
+  border-radius: 10px;
+}
+.icon-tiles{
+
+width:50%;  
+}
+.logo img{
+
+height: 3rem;
+opacity: 0.7;
+}
+.container {
+  max-width: 1200px;
+}
+.hero {
+  background-color: #f4faf7;
+  overflow: hidden;
+}
+
+.offer {
+  max-width: 1296px; 
+}
+.offer h2{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+color: coral;  
+}
+.heroimg {
+  position: relative;
+  height: 85vh;
+  max-height: 800px;
+}
+.herotxt {
+  display: flex;
+
+}
+.herotxt p{
+font-size: 1rem;
+
+}
+.hero h3{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+color: coral;
+font-size: 1rem;
+}
+.hero h1{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #555;
+}
+.herotxt button {
+  text-transform: uppercase;
+  background-color: #f4faf7;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1rem;
+  transition: 300ms;
+}
+.herotxt button:hover {
+color: rgb(145, 145, 145);
+border-color: rgb(182, 182, 182);
+background-color:#e6ffe6;
+
+transition: 300ms;
+}
+.heroimg img {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer {
+  height: 20vh;
+  background-color: #555;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: 10vh;
+  }
+  .hero h1{
+    font-family: 'Sen', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .heroimg {
+    height: fit-content;
+  }
+
+  .heroimg img {
+    position: relative;
+    height: 100%;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .herotxt p{
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .herotxt button {
+
+    width: 16rem;
+    height: 3rem;
+
+    font-size: 1rem;
+    transition: 500ms;
+  }
+}
