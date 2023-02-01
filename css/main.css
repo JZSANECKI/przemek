@@ -140,12 +140,13 @@ transition: 300ms;
     font-size: 3rem;
   }
   .heroimg {
-    height:50vh;
+    /* height:auto; */
   }
 
   .heroimg img {
 
- height: 100%;
+width: 100%;
+
 
 
     bottom: 0;
