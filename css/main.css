@@ -174,13 +174,13 @@ section .text-container .text-box h3{
 }
 
 #conTest {
-  width: 80%;
-  height: 200px;
+  /* width: 80%; */
+  height: 20vh;
   position: relative;
   overflow: hidden;
-  left: 10%;
+  /* left: 10%; */
 }
-.carousel .panel {
+.carousel2 .panel {
   height: 100%;
   background-size: cover;
   background-position: center;

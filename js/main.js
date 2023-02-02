@@ -17,38 +17,38 @@ function reveal() {
 window.addEventListener('scroll', reveal);
 
 // karuzela
-function startCarousel(carousel, carouselObj) {
+function startCarousel(carousel2, carouselObj) {
   setInterval(function () {
     //runs carousel
-    carousel.find('.panel').each(function () {
+    carousel2.find('.panel').each(function () {
       $(this).css('left', '-=0.5');
     });
   }, carouselObj.speed);
 
   setInterval(function () {
     if (
-      carousel.find('.panel:first').position().left * -1 >=
-      carousel.find('.panel:first').width()
+      carousel2.find('.panel:first').position().left * -1 >=
+      carousel2.find('.panel:first').width()
     ) {
-      carousel.append(carousel.find('.panel').eq(1).clone());
-      carousel.find('.panel:last').css('left', 'calc(100% - 3px)');
-      carousel.find('.panel:first').remove();
+      carousel2.append(carousel2.find('.panel').eq(1).clone());
+      carousel2.find('.panel:last').css('left', 'calc(100% - 3px)');
+      carousel2.find('.panel:first').remove();
     }
   }, 1);
 }
 
-function createCarousel(carousel, container) {
-  $(container).append('<div class="carousel"></div>');
-  var currentCarousel = $(container).find('.carousel:last');
-  for (var i = 0; i <= Object.keys(carousel.images).length; i++) {
-    $(currentCarousel).append(carousel.panel);
-    if (i == Object.keys(carousel.images).length)
+function createCarousel(carousel2, container) {
+  $(container).append('<div class="carousel2"></div>');
+  var currentCarousel = $(container).find('.carousel2:last');
+  for (var i = 0; i <= Object.keys(carousel2.images).length; i++) {
+    $(currentCarousel).append(carousel2.panel);
+    if (i == Object.keys(carousel2.images).length)
       currentCarousel
         .find('.panel')
         .eq(i)
         .css({
-          'background-image': 'url("' + carousel.images[0] + '")',
-          width: 100 / Object.keys(carousel.images).length + '%',
+          'background-image': 'url("' + carousel2.images[0] + '")',
+          width: 100 / Object.keys(carousel2.images).length + '%',
           left: 'calc(100% - 1px)',
         });
     else
@@ -56,12 +56,12 @@ function createCarousel(carousel, container) {
         .find('.panel')
         .eq(i)
         .css({
-          'background-image': 'url("' + carousel.images[i] + '")',
-          width: 100 / Object.keys(carousel.images).length + '%',
-          left: i * (100 / Object.keys(carousel.images).length) + '%',
+          'background-image': 'url("' + carousel2.images[i] + '")',
+          width: 100 / Object.keys(carousel2.images).length + '%',
+          left: i * (100 / Object.keys(carousel2.images).length) + '%',
         });
   }
-  startCarousel(currentCarousel, carousel);
+  startCarousel(currentCarousel, carousel2);
 }
 
 function Carousel(speed, images) {
@@ -69,7 +69,7 @@ function Carousel(speed, images) {
 }
 
 $(document).ready(function () {
-  var speed = 15,
+  var speed = 10,
     imageArray = [
       'http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg',
       'http://www.catster.com/wp-content/uploads/2017/06/small-kitten-meowing.jpg',
