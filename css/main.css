@@ -161,6 +161,17 @@ section .text-container .text-box h3{
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 @media only screen and (max-width: 992px){
   .hero h1{
     font-size: 4rem;
@@ -178,17 +189,7 @@ section .text-container .text-box h3{
     }
   }
   
-  .reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-  }
-  
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+
 
 
 
