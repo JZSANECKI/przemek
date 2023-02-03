@@ -143,23 +143,34 @@ section h1{
   margin: 20px;
 }
 section h2{
-  font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+color: coral;  
 }
-section .text-container{
+/* section .text-container{
    display: flex;
 }
 section .text-container .text-box{
-  margin: 20px;
-  padding: 20px;
+
   background: #00c2cb;
-}
+} */
 section .text-container .text-box h3{
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+section h1{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #555;
+}
+section h3{
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+color: coral;
+font-size: 1rem;
 }
 .reveal{
   position: relative;
