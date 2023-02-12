@@ -46,7 +46,11 @@ position: relative;
 width:25%;  
 }
 .map-tiles{
-width: 100%;
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  transform: translate(0, 50%);
+width: 50%;
   }
 .logo img{
 
