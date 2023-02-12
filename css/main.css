@@ -37,6 +37,9 @@ nav a[aria-current='page'] {
 
 width:25%;  
 }
+.map-tiles{
+width: 100%;
+  }
 .logo img{
 
 height: 3rem;
