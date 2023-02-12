@@ -1,5 +1,5 @@
-function reveal() {
-  var reveals = document.querySelectorAll('.reveal');
+function revealdu() {
+  var reveals = document.querySelectorAll('.revealdu');
 
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
@@ -14,10 +14,10 @@ function reveal() {
   }
 }
 
-window.addEventListener('scroll', reveal);
+window.addEventListener('scroll', revealdu);
 
-function reveal2() {
-  var reveals = document.querySelectorAll('.reveal2');
+function revealrl() {
+  var reveals = document.querySelectorAll('.revealrl');
 
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
@@ -32,4 +32,22 @@ function reveal2() {
   }
 }
 
-window.addEventListener('scroll', reveal2);
+window.addEventListener('scroll', revealrl);
+
+function reveallr() {
+  var reveals = document.querySelectorAll('.reveallr');
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 50;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add('active');
+    } else {
+      // reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener('scroll', reveallr);

@@ -177,25 +177,36 @@ section h3{
 color: coral;
 font-size: 1rem;
 }
-.reveal{
+.revealdu{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal.active{
+.revealdu.active{
   transform: translateY(0);
   opacity: 1;
 }
-.reveal2{
+.revealrl{
   position: relative;
   transform: translateX(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal2.active{
+.revealrl.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveallr{
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveallr.active{
   transform: translateX(0);
   opacity: 1;
 }
