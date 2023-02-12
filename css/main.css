@@ -34,8 +34,12 @@ position: absolute;
 top: 0;
 }
 .tiles{
-
+position: relative;
   border-radius: 10px;
+}
+.tiles h3{
+  margin: 0;
+  font-size: 1.5rem;
 }
 .icon-tiles{
 
@@ -242,6 +246,12 @@ font-size: 1rem;
   background-size: cover;
   background-position: center;
   position: absolute;
+}
+.arrow{
+  position: absolute;
+  right: 10px;
+  bottom: 50%;
+  transform: translateY(50%);
 }
 @media only screen and (max-width: 992px){
   .hero h1{
