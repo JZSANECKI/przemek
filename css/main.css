@@ -35,7 +35,7 @@ nav a[aria-current='page'] {
 }
 .icon-tiles{
 
-width:50%;  
+width:25%;  
 }
 .logo img{
 
@@ -207,6 +207,18 @@ font-size: 1rem;
 }
 
 .reveallr.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveal{
+  position: relative;
+
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+
   transform: translateX(0);
   opacity: 1;
 }
