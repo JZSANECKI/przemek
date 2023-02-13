@@ -35,22 +35,22 @@ top: 0;
 }
 .tiles{
 position: relative;
+display: flex;
   border-radius: 10px;
+  align-items: center;
 }
 .tiles h3{
   margin: 0;
   font-size: 1.5rem;
+
 }
 .icon-tiles{
 
 width:25%;  
 }
 .map-tiles{
-  position: absolute;
-  left: 30%;
-  bottom: 50%;
-  transform: translate(0, 50%);
-width: 50%;
+
+width: 10%;
   }
 .logo img{
 
