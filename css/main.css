@@ -149,9 +149,11 @@ transition: 300ms;
 }
 section{
   /* min-height: 100vh; */
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 section:nth-child(1){
   color: #e0ffff;
@@ -269,9 +271,10 @@ font-size: 1rem;
 }
 .arrow{
   position: absolute;
-right: 10px;
+
 top: 0px;
-  transform: translateY(50%);
+
+  /* transform: translateY(50%); */
 }
 .frame{
   overflow: hidden;
