@@ -269,9 +269,12 @@ font-size: 1rem;
 }
 .arrow{
   position: absolute;
-  right: 10px;
-  bottom: 50%;
+right: 10px;
+top: 0px;
   transform: translateY(50%);
+}
+.frame{
+  overflow: hidden;
 }
 @media only screen and (max-width: 992px){
   .hero h1{
@@ -290,7 +293,17 @@ font-size: 1rem;
     }
   }
   
-
+  .content{
+    max-height: 0px;
+    transition: all 900ms;
+    
+    
+    }
+    .contentactive{
+      max-height: 999px;
+    
+      
+      }
 
 
 
