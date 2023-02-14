@@ -70,7 +70,7 @@ function reveal() {
 
 window.addEventListener('scroll', reveal);
 
-// rowijane kafle
+// rozwijane kafle
 
 
 const btn = document.querySelectorAll('.arrow');
