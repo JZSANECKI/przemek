@@ -1,6 +1,6 @@
 :root{
---dark-green:rgb(0,100,0);
---light-green:rgb(62, 255, 3);
+--dark-green:#01672C;
+--light-green:#92FF06;
 }
 
 * {
@@ -93,6 +93,7 @@ opacity: 0.7;
 color: coral;  
 }
 .offer p{
+  color: var(--dark-green);
   padding-left: 1rem;
 }
 .heroimg {
