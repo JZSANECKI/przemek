@@ -60,13 +60,11 @@ display: flex;
 }
 .bigp{
 position: relative;
-
+font-weight: bold;
 display: inline;
 }
 .bigp::before{
-  /* border-right-style: solid;
-  border-right-width: 2px;
-  border-right: #92FF06; */
+
 
   font-weight: bold;
   position: absolute;
@@ -82,7 +80,7 @@ display: inline;
   position: relative;
   margin:0;
 border-left-style: solid;
-border-left-width: 2px;
+border-left-width: 3px;
 border-color: coral;
 
   }
@@ -95,7 +93,7 @@ border-color: coral;
     color: var(--dark-green);
         left: 0;
     top: 50%;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     content: attr(data-number);
   }
 
