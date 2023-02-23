@@ -1,6 +1,8 @@
 :root{
 --dark-green:#01672C;
 --light-green:#92FF06;
+--bg-green:#f4faf7;
+
 }
 
 * {
@@ -321,6 +323,27 @@ top: 0px;
 .frame{
   overflow: hidden;
 }
+.map-counter{
+  position: relative;
+  margin:auto;
+  border-radius: 50%;
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: coral;
+  
+}
+.map-counter p{
+font-weight: bold;
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+  line-height: 90px;
+}
+.map-content{
+  border-radius: 10px;
+  background-color: var(--bg-green);
+}
 @media only screen and (max-width: 992px){
   .hero h1{
     font-size: 4rem;
@@ -338,17 +361,7 @@ top: 0px;
     }
   }
   
-  .content{
-    max-height: 0px;
-    transition: all 900ms;
-    
-    
-    }
-    .contentactive{
-      max-height: 999px;
-    
-      
-      }
+
 
 
 
