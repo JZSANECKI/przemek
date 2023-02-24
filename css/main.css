@@ -350,8 +350,9 @@ top: 0px;
 .map-counter p{
 font-weight: bold;
   font-size: 5rem;
+  line-height: 0%;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   color: rgba(1,103,44,0.20);
 
 
