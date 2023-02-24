@@ -70,20 +70,3 @@ function reveal() {
 
 window.addEventListener('scroll', reveal);
 
-// rozwijane kafle
-
-
-const btn = document.querySelectorAll('.arrow');
-const frame = document.querySelectorAll('.frame');
-const ttl = document.querySelectorAll('.title');
-
-const more = (e) => {
-  const btne = e.target;
-  console.log(e.target); 
-  let nextSibling = btne.nextElementSibling;
-  console.log(nextSibling); 
-  nextSibling.classList.toggle('contentactive');
-}
-btn.forEach((btn) => {
-  btn.addEventListener('click', more);
-});

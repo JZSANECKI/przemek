@@ -1,6 +1,6 @@
 :root{
 --dark-green:#01672C;
---light-green:#92FF06;
+--light-green:rgba(146,255,6,0.73);
 --bg-green:#f4faf7;
 --coral:coral;
 --grafit:#4F4F4F;
@@ -177,10 +177,10 @@ font-size: 1rem;
 .herotxt button {
   text-transform: uppercase;
   background-color: #f4faf7;
-  color: black;
+  color: var(--dark-green);
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: var(--dark-green);
   border-radius: 5px;
   width: 15rem;
   height: 3rem;
@@ -188,8 +188,8 @@ font-size: 1rem;
   transition: 300ms;
 }
 .herotxt button:hover {
-color: rgb(255, 255, 255);
-border-color: rgb(182, 182, 182);
+color: white;
+border-color: rgba(182, 182, 182,0);
 background-color:var(--light-green);
 
 
