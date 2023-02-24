@@ -330,7 +330,15 @@ top: 0px;
 .frame{
   overflow: hidden;
 }
-
+.map-content{
+  border-radius: 10px;
+  display:flex ;
+}
+.map-content p{
+  margin: 0;
+  padding: 0;
+  color: black;
+}
 .map-counter{
   position: relative;
   margin:auto;
@@ -344,7 +352,8 @@ font-weight: bold;
   font-size: 5rem;
   margin: 0;
   padding: 0;
-  color: rgba(1,103,44,20);
+  color: rgba(1,103,44,0.20);
+
 
 }
 
