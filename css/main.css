@@ -3,6 +3,7 @@
 --light-green:#92FF06;
 --bg-green:#f4faf7;
 --coral:coral;
+--grafit:#4F4F4F;
 
 }
 
@@ -67,6 +68,7 @@ position: relative;
 font-weight: bold;
 display: inline;
 z-index: 100;
+color: var(--grafit);
 }
 .bigp::before{
 
@@ -84,6 +86,7 @@ z-index: 100;
 }
 .smallp{
   position: relative;
+  color: var(--grafit);
   margin:0;
 border-left-style: solid;
 border-left-width: 3px;
@@ -337,7 +340,11 @@ top: 0px;
 .map-content p{
   margin: 0;
   padding: 0;
-  color: black;
+  color: var(--grafit)
+}
+.map-content h2{
+color: var(--dark-green);
+
 }
 .map-counter{
   position: relative;
