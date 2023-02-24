@@ -384,11 +384,15 @@ section h3 {
   }
 }
 
+/* SM */
 @media only screen and (max-width: 576px) {
 .map-content h2{
 font-size: 1rem;
 
 }  
+.map-content{
+margin:0;  
+}
 
 .smallp::before{
   font-size: 4rem;
