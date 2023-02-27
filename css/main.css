@@ -107,6 +107,9 @@ nav a[aria-current='page'] {
 .map-tiles {
   width: 10%;
 }
+.logo{
+  width:auto;
+}
 .logo img {
   height: 3rem;
   opacity: 0.7;
