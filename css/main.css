@@ -18,6 +18,19 @@ body {
   color: black;
   background-color: white;
 }
+.nav-big{
+display: block;
+}
+.nav-small{
+
+}
+.nav-small i{
+  position: absolute;
+  right: 30px;
+  top: 10%;
+  font-size: 2rem;
+  color: var(--grafit);
+}
 
 nav {
   background-color: white;
@@ -403,6 +416,9 @@ section h3 {
   nav {
     height: 10vh;
   }
+  .nav-big{
+    display: none;
+    }
   .hero h1 {
     font-weight: bold;
     font-size: 3rem;
