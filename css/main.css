@@ -194,11 +194,21 @@ nav a:hover{
   background-color: var(--bg-green);
 
 }
-footer p{
+
+footer i{
+  font-size: 2rem;
+  color: var(--grafit);
+}
+footer a{
+  text-decoration: none;
   color: var(--grafit);
   transition: all 300ms;
 }
-footer p:hover{
+footer a:hover{
+  color:coral;
+  transition: all 300ms;
+}
+footer i:hover{
   color:coral;
   transition: all 300ms;
 }
