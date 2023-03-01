@@ -55,8 +55,8 @@ display: block;
 }
 .nav-small i{
   position: absolute;
-  right: 30px;
-  top: 10%;
+  right:0;
+  top: 0;
   font-size: 2rem;
   color: var(--grafit);
 
