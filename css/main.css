@@ -18,20 +18,34 @@ body {
   color: black;
   background-color: white;
 }
+ul {
+  list-style-type: none;
+}
 .mob-menu{
   opacity:0;
 visibility: hidden;
 width: 100%;
 height: 100%;
-
+display: grid;
+object-position: center;
 backdrop-filter: blur(10px);
 background-color: rgba(255,255,255,0.8);
 z-index: 100;
 transition: none 300ms;
+place-items: center;
 }
 .mob-menu p{
-  position: sticky;
+
   color: red;
+}
+.x{
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.menu-list {
+  font-size: 2rem;
 }
 .nav-big{
 display: block;
