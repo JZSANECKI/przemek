@@ -21,8 +21,28 @@ body {
 ul {
   list-style-type: none;
 }
+.karuzela{
+
+/* height: 50vh; */
+background-color: #f6d365;
+overflow: hidden;
+
+}
+.karuzela-img{
+
+
+
+
+}
+.karuzela img{
+object-fit: contain;
+width:100%;
+
+}
+
+
 .mob-menu{
-  opacity:0;
+opacity:0;
 visibility: hidden;
 width: 100%;
 height: 150%;
