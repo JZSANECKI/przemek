@@ -24,16 +24,11 @@ ul {
 .karuzela{
 
 /* height: 50vh; */
-background-color: #f6d365;
+
 overflow: hidden;
 
 }
-.karuzela-img{
 
-
-
-
-}
 .karuzela img{
 object-fit: contain;
 width:100%;
