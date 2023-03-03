@@ -38,7 +38,8 @@ display:block;
 
 .carousel-md img{
 object-fit: cover;
-max-width:100%;
+width:100%;
+aspect-ratio: 1/1;
 
 }
 .carousel-sm img{
