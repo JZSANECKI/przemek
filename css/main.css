@@ -21,19 +21,15 @@ body {
 ul {
   list-style-type: none;
 }
-.karuzela{
 
-/* height: 50vh; */
-
-overflow: hidden;
-
-}
 .carousel-sm{
 display:none;
+overflow: hidden;
 }
 
 .carousel-md{
 display:block;
+overflow: hidden;
 }
 
 .carousel-md img{
@@ -42,10 +38,14 @@ width:100%;
 aspect-ratio: 1/1;
 
 }
+
 .carousel-sm img{
   object-fit: cover;
   width:100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 2/1;
+  }
+  .carousel-squere{
+height: 30vh;
   }
 
 
