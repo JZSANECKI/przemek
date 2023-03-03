@@ -28,19 +28,24 @@ ul {
 overflow: hidden;
 
 }
-.carousele-sm{
+.carousel-sm{
 display:none;
 }
 
-.carousele-md{
+.carousel-md{
 display:block;
 }
 
-.karuzela img{
-object-fit: contain;
-width:100%;
+.carousel-md img{
+object-fit: cover;
+max-width:100%;
 
 }
+.carousel-sm img{
+  object-fit: cover;
+  width:100%;
+  aspect-ratio: 1/1;
+  }
 
 
 .mob-menu{
@@ -526,11 +531,11 @@ margin:0;
   opacity: 1;
   transition: opacity 300ms;
 }
-.carousele-sm{
+.carousel-sm{
   display:block;
   }
   
-  .carousele-md{
+  .carousel-md{
   display:none;
   }
 
