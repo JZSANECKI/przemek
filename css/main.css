@@ -28,6 +28,13 @@ ul {
 overflow: hidden;
 
 }
+.carousele-sm{
+display:none;
+}
+
+.carousele-md{
+display:block;
+}
 
 .karuzela img{
 object-fit: contain;
@@ -519,6 +526,12 @@ margin:0;
   opacity: 1;
   transition: opacity 300ms;
 }
-
+.carousele-sm{
+  display:block;
+  }
+  
+  .carousele-md{
+  display:none;
+  }
 
 }
