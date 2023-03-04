@@ -18,6 +18,10 @@ body {
   color: black;
   background-color: white;
 }
+h2 {
+  font-weight: bold;
+  color: coral;
+}
 ul {
   list-style-type: none;
 }
