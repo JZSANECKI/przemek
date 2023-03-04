@@ -47,6 +47,17 @@ aspect-ratio: 1/1;
   .carousel-squere{
 height: 30vh;
   }
+.carousel h3, i{
+  color: var(--grafit);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.carousel-content{
+  margin: auto;
+  /* align-items: center; */
+}
 
 
 .mob-menu{
