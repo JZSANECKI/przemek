@@ -45,7 +45,7 @@ aspect-ratio: 1/1;
   aspect-ratio: 2/1;
   }
   .carousel-squere{
-height: 30vh;
+height: 40vh;
   }
 .carousel h3, i{
   color: var(--grafit);
@@ -550,5 +550,7 @@ margin:0;
   .carousel-md{
   display:none;
   }
-
+.carousel h3{
+  font-size: 1rem;
+}
 }
