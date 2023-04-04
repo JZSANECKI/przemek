@@ -5,7 +5,18 @@
   --coral: coral;
   --grafit: #4f4f4f;
 }
+.carousel-control-prev,
+.carousel-control-next{
+width: 50px;
+  color: coral;
+/* scale: 2; */
+background-color: #fff;
+}
 
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+  color: coral;
+}
 * {
   font-family: 'Sen', sans-serif;
   box-sizing: border-box;
