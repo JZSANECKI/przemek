@@ -70,3 +70,17 @@ function reveal() {
 
 window.addEventListener('scroll', reveal);
 
+const moreTxtBtn = document.querySelector(".morebtn")
+const moreTxtArea = document.querySelector(".more-txt")
+console.log(moreTxtBtn.innerHTML)
+
+const moreTxtFn = () => {
+moreTxtArea.classList.toggle("more-txt-active")
+if(moreTxtBtn.innerHTML==="więcej o mnie"){
+  moreTxtBtn.innerHTML="zwiń"  
+}else{
+moreTxtBtn.innerHTML="więcej o mnie"
+}
+}
+
+moreTxtBtn.addEventListener("click", moreTxtFn)
