@@ -72,7 +72,7 @@ window.addEventListener('scroll', reveal);
 
 const moreTxtBtn = document.querySelector(".morebtn")
 const moreTxtArea = document.querySelector(".more-txt")
-console.log(moreTxtBtn.innerHTML)
+
 
 const moreTxtFn = () => {
 moreTxtArea.classList.toggle("more-txt-active")
@@ -84,3 +84,14 @@ moreTxtBtn.innerHTML="więcej o mnie"
 }
 
 moreTxtBtn.addEventListener("click", moreTxtFn)
+
+const mobMenu = document.querySelector(".mob-menu")
+
+const menuFn = ()=>{
+mobMenu.classList.toggle("mob-menu-active")
+}
+const menuOff = ()=>{
+mobMenu.classList.toggle("mob-menu-active")
+}
+
+// menuFn()

@@ -31,15 +31,13 @@
 
 
 
-  <!-- <div class="mob-menu fixed-top">
-    <div class="x p-5"><i class="bi bi-x-lg"></i></div>
+  <div class="mob-menu fixed-top">
+    <div class="x p-5"><i class="bi bi-x-lg" onclick="menuFn()"></i></div>
     <div class="menu-list"> 
-    <ul>
-    <li>LINK1</li>
-    <li>LINK2</li>
-    <li>LINK3</li>
-    <li>LINK4</li></ul>
-    </div> -->
+<a href="#o-mnie" onclick="menuOff()">O MNIE<br></a>
+<a href="#ścieżka" onclick="menuOff()">ŚCIEŻKA KARIERY<br></a>
+<a href="#kontakt" onclick="menuOff()">KONTAKT<br></a>
+    </div>
 
   </div>
     <nav class="justify-content-center shadow">
@@ -55,7 +53,7 @@
       <a href="#kontakt">KONTAKT</a>  
     </div>
     <div class="nav-small p-3">
-      <i class="bi bi-list p-3"></i>
+      <i class="bi bi-list p-3 menuBtn" onclick="menuFn()"></i>
     </div>
     </div>
       </div>
@@ -63,6 +61,7 @@
 
 
     <main>
+      <div class="mob-menu-section"></div>
       <div id="o-mnie" class="hero row p-0 m-0 justify-content-center shadow">
 
         <div class="row px-2 px-lg-0 m-0" style="max-width: 1296px">
@@ -158,7 +157,7 @@ Na co dzień prowadzę 11 osobowy zespół, który w czasie sezonu powiększa si
       <!-- Moje osiągnięcia -->
 
       <section class="hero shadow">
-        <div class="px-5 col revealdu py-5" style="max-width: 1400px">
+        <div class="px-5 col revealdu py-5" style="max-width: 1400px; ">
           <h2 class="text-center">Moje osiągnięcia</h2>
           <div class="row gap-0 p-0">
             <div
@@ -463,9 +462,9 @@ Na co dzień prowadzę 11 osobowy zespół, który w czasie sezonu powiększa si
         </h2>
       <div class="container py-1">
         <div class="row justify-content-center">
-      <div class="col-sm-2 text-center link"><a href=""><i class="bi bi-envelope"></i><p>prozewicz@gmail.com</p></a></div>
+      <div class="col-lg-4 text-center link"><a href=""><i class="bi bi-envelope"></i><p>prozewicz@gmail.com</p></a></div>
 
-      <div class="col-sm-2 text-center "><a href=""><i class="bi bi-instagram"></i><p>@rozewiczprzemek</p></a></div>
+      <div class="col-lg-4 text-center "><a href=""><i class="bi bi-instagram"></i><p>@rozewiczprzemek</p></a></div>
     </div>
       
       </div>
